@@ -1,0 +1,41 @@
+/* services  for main style */
+
+
+.services {
+   float: left;
+   margin-left: -1rem;
+   margin-right: -1rem;
+
+}
+
+
+.service {
+
+    background-color: #FFFFFF;
+    width: 30rem;
+    height: 26rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+    margin: 2rem 1rem;
+    text-align: center;
+    color: var(--dark-grey);
+    flex-grow: 1rem;
+
+}
+
+
+.service__img {
+    display: block;
+}
+
+.service__title {
+    margin: 1rem 0;
+}
+
+.service__caption {
+    max-width: 23rem;
+
+}

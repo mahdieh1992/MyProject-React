@@ -1,0 +1,59 @@
+.Temp {
+    background:rgb(241, 225, 225);
+    width: 15rem;
+    height: 20rem;
+    border-radius: 2rem;
+    padding: 2rem 4rem;
+    margin:-25rem 4rem;
+    box-shadow: 10px 10px 5px #dfdddd;
+
+
+}
+
+.Temp__Show {
+    width: 6rem;
+    background-color: var(--white);
+    height: 6rem;
+    border-radius: 4rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 2rem auto;
+    box-shadow: 1px 1px 3px 3px #afacac;
+
+
+}
+
+.Temp__Number {
+    color: black;
+    display: block;
+}
+
+.Temp__Plus {
+    width: 2.5rem;
+    height: 2.5rem;
+    background: transparent;
+    border-color: var(--white);
+    border-radius: 1.3rem;
+    color: green;
+    margin-right: 1.7rem;
+}
+
+.Temp__Mines {
+    width: 2.5rem;
+    height: 2.5rem;
+    background: transparent;
+    border-color: var(--white);
+    border-radius: 1.3rem;
+    color: red;
+}
+
+
+.temp__show--blue{
+    background-color: rgb(57, 57, 248);
+
+}
+
+.temp__show--red{
+    background-color:var(--orange)
+}

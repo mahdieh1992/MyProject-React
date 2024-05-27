@@ -1,0 +1,26 @@
+:root {
+    --orange: rgb(243, 105, 51);
+    --white: rgb(255, 255, 255);
+    --grey: rgb(199, 193, 193);
+    --dark-grey: #3B3735;
+    --app-bgc: #FAF4F2
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+
+body {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    font-family: Roboto;
+    background-color: var(--app-bgc);
+}

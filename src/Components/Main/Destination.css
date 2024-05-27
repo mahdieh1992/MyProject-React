@@ -1,0 +1,45 @@
+.destination {
+
+    text-align: center;
+    padding: 30rem 6rem;
+
+
+}
+
+.destination__log {}
+
+.destination__title {
+    font-family: 'Roboto';
+    font-size: 3rem;
+    max-width: 36rem;
+    margin: 0 auto;
+}
+
+.destination__places {
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.destination__link {
+    color: var(--orange);
+    background: transparent;
+    border: 1px solid var(--orange);
+    margin-top: 3rem;
+
+
+}
+
+.destination__link:hover {
+    color: var(--white);
+    background-color: var(--orange);
+    transition: all 250ms ease;
+
+}
+
+.destination__links {
+    display: flex;
+    align-items: center;
+
+}

@@ -1,0 +1,73 @@
+.place {
+
+    background-color: var(--white);
+    border-radius: 2rem;
+    padding: 2rem;
+    margin: 2rem 1rem;
+    width: 32rem;
+    height:45rem;
+    flex-grow: 1rem;
+
+
+}
+
+.place__baner {
+    position: relative;
+    overflow: hidden;
+
+}
+
+.place__img {
+    border-radius: 2rem;
+}
+
+.place__like {
+    position: absolute;
+    background-color: var(--white);
+    width: 4.3rem;
+    height: 4.3rem;
+    border-radius: 1.5rem;
+    top: 1rem;
+    right: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.place__like-text {}
+
+
+.place__price {
+
+    position: absolute;
+    background-color: var(--white);
+    width: 15.3rem;
+    height: 4.3rem;
+    border-radius: 1.5rem;
+    bottom: -0.5rem;
+    left: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.place__price-text {
+
+    color: var(--orange);
+}
+
+.place__title {
+    color: var(--dark-grey);
+}
+
+.place__caption {
+    max-width: 30rem;
+    margin: 0 auto;
+    color: var(--dark-grey);
+}
+
+.place__link {
+    margin-top: 2rem;
+}
