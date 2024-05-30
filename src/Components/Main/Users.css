@@ -1,0 +1,23 @@
+.User {
+    display: flex;
+    justify-content: center;
+
+}
+
+.User__show {
+    color: var(--dark-grey);
+    margin: 2rem 4rem;
+
+
+}
+
+.User__delete {
+    background-color: rgb(247, 0, 0);
+    border-radius: 1rem;
+    width: 10rem;
+    height: 4rem;
+    color: var(--white);
+    font-family: 'Archivo';
+    cursor: pointer;
+
+}

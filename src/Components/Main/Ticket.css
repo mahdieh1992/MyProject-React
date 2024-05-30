@@ -1,0 +1,42 @@
+.ticket{
+    width: 100rem;
+    height: 50rem;
+    box-shadow: 1rem 1rem 5rem 1rem rgb(233, 229, 229);
+    background: transparent;
+    margin: 30rem auto;
+}
+.ticketForm{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 3rem;
+    flex-wrap: wrap;
+   
+}
+.ticketForm__in{
+    width: 30rem;
+    height: 5rem;
+    margin: 2rem 1rem;
+    border: 2px solid #ccc;
+    border-radius: 3px;
+    padding: 1rem;
+}
+
+.ticketForm__Btn{
+    background-color: var(--orange);
+    margin:10rem 40rem;
+    cursor: pointer;
+    border: 1px solid var(--orange);
+
+}
+
+.ticketForm__city,
+.ticketForm__Country{
+    width: 30rem;
+    height: 5rem;
+    margin: 2rem 1rem;
+    border: 2px solid #ccc;
+    border-radius: 3px;
+    padding: 1rem;
+
+
+}
